@@ -43,5 +43,14 @@ class RobotLooking(unittest.TestCase):
         self.assertEqual(bat.distance_to_objection_in_direction("up"), 0)
         self.assertEqual(bat.distance_to_objection_in_direction("right"), 0)
 
+    def test_1_space_all_directions(self):
+        maze = Maze(5)
+        robot_pos = [2, 2]
+        bat = RoboBat(maze, robot_pos)
+        self.assertEqual(bat.distance_to_objection_in_direction("left"), 1)
+        self.assertEqual(bat.distance_to_objection_in_direction("down"), 1)
+        self.assertEqual(bat.distance_to_objection_in_direction("up"), 1)
+        self.assertEqual(bat.distance_to_objection_in_direction("right"), 1)
+
         if __name__ == '__main__':
             unittest.main()
