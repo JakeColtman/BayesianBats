@@ -12,4 +12,10 @@ class RoboBat:
         self.pos = new_pos
 
     def distance_to_objection_in_direction(self, direction):
-        raise NotImplementedError()
+        totalDistanceSeen = 0
+        next_pos = self.maze.next_point_in_direction(self.pos, direction)
+        while self.maze.value_at_point(next_pos) == 0:
+            next_pos = self.maze.next_point_in_direction(self.pos, direction)
+            totalDistanceSeen += 1
+
+        return totalDistanceSeen
