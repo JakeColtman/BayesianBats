@@ -15,7 +15,7 @@ class RoboBat:
         totalDistanceSeen = 0
         next_pos = self.maze.next_point_in_direction(self.pos, direction)
         while self.maze.value_at_point(next_pos) == 0:
-            next_pos = self.maze.next_point_in_direction(self.pos, direction)
+            next_pos = self.maze.next_point_in_direction(next_pos, direction)
             totalDistanceSeen += 1
 
         return totalDistanceSeen
