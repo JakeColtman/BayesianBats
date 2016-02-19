@@ -19,7 +19,7 @@ class RobotCreationAndMove(unittest.TestCase):
         self.assertTrue(maze.value_at_point(bat.pos) == 3)
 
     def test_robot_move_changes_robotpos(self):
-        maze = Maze(4)
+        maze = Maze(7)
         robotPos = [1, 4]
         bat = RoboBat(maze, robotPos)
         bat.move_in_direction("LEFT")
