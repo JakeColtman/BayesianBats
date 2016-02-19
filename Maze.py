@@ -3,7 +3,7 @@ import random
 from matplotlib import pyplot as plt
 
 
-def _random_square(maze):
+def random_square(maze):
     x, y = random.randint(1, maze.shape[0] - 2), random.randint(1, maze.shape[0] - 2)
     return [x, y]
 
@@ -18,7 +18,7 @@ def display_maze(maze):
 class Maze:
     def __init__(self, size):
         self._generate_maze(size)
-        self.exitPos = _random_square()
+        self.exitPos = random_square(self.maze)
         self.maze[self.exitPos[0], self.exitPos[1]] = 2
 
     def value_at_point(self, position):
