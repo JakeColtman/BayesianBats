@@ -23,7 +23,7 @@ class RobotCreationAndMove(unittest.TestCase):
         robot_pos = [1, 4]
         bat = RoboBat(maze, robot_pos)
         bat.move_in_direction("LEFT")
-        robot_pos != bat.pos
+        self.assertNotEqual(robot_pos, bat.pos)
 
 
 if __name__ == '__main__':
