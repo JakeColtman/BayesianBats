@@ -22,6 +22,6 @@ class TestBrainSetup(unittest.TestCase):
         brain = Brain(maze)
         direction = brain.determine_direction()
         self.assertTrue(direction in ["left", "right", "up", "down"])
-        
+
 if __name__ == '__main__':
     unittest.main()

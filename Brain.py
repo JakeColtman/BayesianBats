@@ -1,5 +1,5 @@
 import numpy as np
-
+import random
 
 class Brain:
     def __init__(self, maze):
@@ -12,4 +12,4 @@ class Brain:
         return True
 
     def determine_direction(self):
-        raise NotImplementedError()
+        return random.choice(["left", "right", "up", "down"])
