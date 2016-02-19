@@ -7,8 +7,8 @@ class Brain:
         self.belief = np.zeros(maze.maze.shape)
         self.informationCache = []
 
-    def accept_information(self, information):
-        self.informationCache.append(information)
+    def accept_information(self, observation):
+        self.informationCache.append(observation)
         return True
 
     def determine_direction(self):
