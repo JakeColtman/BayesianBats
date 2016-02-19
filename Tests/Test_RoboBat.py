@@ -14,7 +14,7 @@ class RobotCreationAndMove(unittest.TestCase):
         maze = Maze(7)
         robot_pos = [1, 4]
         bat = RoboBat(maze, robot_pos)
-        bat.move_in_direction("LEFT")
+        bat.move_in_direction("left")
         self.assertFalse(maze.value_at_point(robot_pos) == 3)
         self.assertTrue(maze.value_at_point(bat.pos) == 3)
 
@@ -22,8 +22,15 @@ class RobotCreationAndMove(unittest.TestCase):
         maze = Maze(7)
         robot_pos = [1, 4]
         bat = RoboBat(maze, robot_pos)
-        bat.move_in_direction("LEFT")
+        bat.move_in_direction("left")
         self.assertNotEqual(robot_pos, bat.pos)
+
+    def test_robot_moves_in_right_direction(self):
+        maze = Maze(7)
+        robot_pos = [3, 4]
+        bat = RoboBat(maze, robot_pos)
+        bat.move_in_direction("left")
+        self.assertEqual(bat.pos, [2, 4])
 
 
 if __name__ == '__main__':

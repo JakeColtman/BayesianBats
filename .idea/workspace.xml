@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff461ee9-2491-44f8-9fbd-cd3f73f0288a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maze.py" afterPath="$PROJECT_DIR$/Maze.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Tests_Maze.py" afterPath="$PROJECT_DIR$/Tests/Tests_Maze.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RoboBat.py" afterPath="$PROJECT_DIR$/RoboBat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Test_RoboBat.py" afterPath="$PROJECT_DIR$/Tests/Test_RoboBat.py" />
     </list>
     <ignored path="BayesianBats.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Maze.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="29" />
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -40,17 +40,17 @@
         <entry file="file://$PROJECT_DIR$/RoboBat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_RoboBat.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test_RoboBat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Test_RoboBat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.6072607">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tests_Maze.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tests_Maze.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/Tests_Maze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5891089">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -87,10 +87,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/RoboBat.py" />
+        <option value="$PROJECT_DIR$/Tests/Tests_Maze.py" />
         <option value="$PROJECT_DIR$/Tests/Test_RoboBat.py" />
         <option value="$PROJECT_DIR$/Maze.py" />
-        <option value="$PROJECT_DIR$/Tests/Tests_Maze.py" />
+        <option value="$PROJECT_DIR$/RoboBat.py" />
       </list>
     </option>
   </component>
@@ -171,7 +171,7 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in Tests_Maze">
+  <component name="RunManager" selected="Python tests.Nosetests in Test_RoboBat">
     <configuration default="false" name="Nosetests in Tests_Maze" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,8 +342,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in Tests_Maze" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_RoboBat" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_RoboBat" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in Tests_Maze" />
       </list>
     </recent_temporary>
   </component>
@@ -358,32 +358,32 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 08h 58m 01s.xml">
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 14m 09s.xml">
       <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 08h 58m 17s.xml">
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 14m 51s.xml">
       <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 00m 42s.xml">
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 15m 46s.xml">
       <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 00m 58s.xml">
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 16m 04s.xml">
       <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 03m 04s.xml">
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 17m 06s.xml">
       <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Tests_Maze - 2016.02.19 at 09h 09m 22s.xml">
-      <configuration name="Nosetests in Tests_Maze" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 17m 41s.xml">
+      <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Tests_Maze - 2016.02.19 at 09h 09m 56s.xml">
-      <configuration name="Nosetests in Tests_Maze" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 18m 41s.xml">
+      <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Tests_Maze - 2016.02.19 at 09h 10m 47s.xml">
-      <configuration name="Nosetests in Tests_Maze" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 18m 51s.xml">
+      <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Tests_Maze - 2016.02.19 at 09h 11m 20s.xml">
-      <configuration name="Nosetests in Tests_Maze" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 09h 19m 07s.xml">
+      <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_Tests_Maze - 2016.02.19 at 09h 11m 48s.xml">
       <configuration name="Nosetests in Tests_Maze" configurationId="tests" />
@@ -428,38 +428,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RoboBat.py">
+    <entry file="file://$PROJECT_DIR$/Tests/Tests_Maze.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Test_RoboBat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Tests_Maze.py">
+    <entry file="file://$PROJECT_DIR$/Maze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5891089">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RoboBat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Test_RoboBat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6072607">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
