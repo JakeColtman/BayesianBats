@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff461ee9-2491-44f8-9fbd-cd3f73f0288a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Test_Brain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Brain.py" afterPath="$PROJECT_DIR$/Brain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Test_Brain.py" afterPath="$PROJECT_DIR$/Tests/Test_Brain.py" />
     </list>
     <ignored path="BayesianBats.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brain.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Brain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16831683">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_Brain.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test_Brain.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Test_Brain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.5891089">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -419,8 +418,8 @@
     <history-entry file="Nosetests_in_Test_Brain - 2016.02.19 at 18h 27m 21s.xml">
       <configuration name="Nosetests in Test_Brain" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 18h 09m 28s.xml">
-      <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_Brain - 2016.02.19 at 18h 30m 14s.xml">
+      <configuration name="Nosetests in Test_Brain" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_Test_RoboBat - 2016.02.19 at 18h 11m 34s.xml">
       <configuration name="Nosetests in Test_RoboBat" configurationId="tests" />
@@ -546,21 +545,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Test_Brain.py">
+    <entry file="file://$PROJECT_DIR$/Brain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Brain.py">
+    <entry file="file://$PROJECT_DIR$/Tests/Test_Brain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16831683">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
+        <state vertical-scroll-proportion="0.5891089">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
