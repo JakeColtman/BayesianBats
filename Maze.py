@@ -27,6 +27,16 @@ class Maze:
     def set_value_at_point(self, position, value):
         self.maze[position[0], position[1]] = value
 
+    def next_point_in_direction(self, point, direction):
+        if direction == "right":
+            return [point[0] + 1, point[1]]
+        if direction == "left":
+            return [point[0] - 1, point[1]]
+        if direction == "down":
+            return [point[0], point[1] + 1]
+        if direction == "up":
+            return [point[0], point[1] - 1]
+
     def _generate_maze(self, size):
         base = np.zeros((size, size))
         base[:, 0] = 1
